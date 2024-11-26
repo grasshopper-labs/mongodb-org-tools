@@ -6,4 +6,4 @@ This GitHub Action installs MongoDB Database Tools (e.g., `mongodump`, `mongores
 
 ```yaml
 - name: Install MongoDB Tools
-  uses: <your-username>/install-mongo-tools-action@v1
+  uses: grasshopper-labs/mongodb-org-tools@v1
