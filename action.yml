@@ -7,4 +7,4 @@ runs:
   steps:
     - name: Install mongodb org tools
       shell: bash
-      run: path/install-mongo-tools.sh
+      run: ${{ github.action_path }}/install-mongo-tools.sh
