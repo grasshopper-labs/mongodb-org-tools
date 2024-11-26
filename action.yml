@@ -1,0 +1,10 @@
+name: Install MongoDB org tools
+author: itamarlebel
+description: A GitHub Action to install MongoDB Database Tools
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install mongodb org tools
+      shell: bash
+      run: ./install-mongo-tools.sh
